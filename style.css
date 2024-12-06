@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%; /* Alterado de 100vh para 100% para garantir que ocupe toda a tela */
+    width: 100%;  /* Alterado de 100vh para 100% para garantir que ocupe toda a largura */
+    background-color: black;
+}
+
+main {
+    height: 100%; /* Manter 100% ou 100vh, dependendo da necessidade */
+    position: relative;
+    background-color: purple;
+}
